@@ -32,22 +32,22 @@ CAVIAR, a liquid wrapper from Tangible, removes the complexity and commitment of
 CAVIAR ($CVR) is a self-sustaining liquid-wrapper for locked tokens vePEARL, the governance token of the [Pearl Exchange](https://www.pearl.exchange/swap). The main advantage of CAVIAR lies in its streamlined access to outstanding vePEARL yields, paid to voters, and CAVIAR stakers, in the stablecoin $USDR. CAVIAR promises to be a substantial source of income for both the CAVIAR users as well as Tangible 3,3+ locked token holders, who will receive 20% of the vePEARL yield.
 
 ## Glossary
-- $PEARL: ERC-20 governance token/emission token for Pearl Exchange, an AMM on Polygon
-- $vePEARL: ERC-721 tokens (NFTs) containing $PEARL that’s been locked up to 2 years to obtain voting rights on Pearl Exchange
-- $CVR: CAVIAR, the liquid-wrapper created by Tangible
-- Epoch: A period lasting 7 days, restarting every Thursday at 00:00 GMT
-- Rebase: A process on Pearl where up to 50% of weekly emissions are allocated to $vePEARL holders and directly added to their $vePEARL positions
-- Bribes: Money deposited in Pearl to entice voters to pick different liquidity pools to receive yield in the form of $PEARL emissions
-- Stake: Staking is the process of submitting your CAVIAR into a contract where it can collect bribes. CAVIAR must be staked on Tangible to receive any benefits.
-- TNGBL 3,3+: Locked Tangible/$TNGBL the governance token of the Tangible protocol
-- $CVR_balance: The balance of CAVIAR in the Pearl stable LP
-- $CVR_staked: The total CAVIAR in the staking contract 
-- $PEAL_balance: The balance of $PEARL in the Pearl stable LP
-- $CVR_total: The total minted supply of CAVIAR
+- **$PEARL:** ERC-20 governance token/emission token for Pearl Exchange, an AMM on Polygon
+- **$vePEARL:** ERC-721 tokens (NFTs) containing $PEARL that’s been locked up to 2 years to obtain voting rights on Pearl Exchange
+- **$CVR:** CAVIAR, the liquid-wrapper created by Tangible
+- **Epoch:** A period lasting 7 days, restarting every Thursday at 00:00 GMT
+- **Rebase:** A process on Pearl where up to 50% of weekly emissions are allocated to $vePEARL holders and directly added to their $vePEARL positions
+- **Bribes:** Money deposited in Pearl to entice voters to pick different liquidity pools to receive yield in the form of $PEARL emissions
+- **Stake:** Staking is the process of submitting your CAVIAR into a contract where it can collect bribes. CAVIAR must be staked on Tangible to receive any benefits.
+- **TNGBL 3,3+:** Locked Tangible/$TNGBL the governance token of the Tangible protocol
+- **$CVR_balance:** The balance of CAVIAR in the Pearl stable LP
+- **$CVR_staked:** The total CAVIAR in the staking contract 
+- **$PEAL_balance:** The balance of $PEARL in the Pearl stable LP
+- **$CVR_total:** The total minted supply of CAVIAR
 
 ## CAVIAR Explained - How to Use, Redeem and Profit
 
-INSERT IMAGE
+![caviar-explained](https://github.com/code-423n4/2023-08-tangible/assets/85371239/4b1527a7-498c-4b2b-a70c-52985c02e4b5)
 
 Earning triple-digit stablecoin yield has never been easier, it just takes three simple steps:
 
@@ -58,13 +58,13 @@ Earning triple-digit stablecoin yield has never been easier, it just takes three
 3. Claim: Claim yield any time. Rewards accrue by block and are delivered to your wallet as USDR.
 
 ## Minting or Buying CAVIAR
-- Mint PEARL → CAVIAR: Users can mint CAVIAR with $PEARL 1:1 at any time on Tangible, no fees or any additional costs other than gas on Polygon.
-- Mint vePEARL → CAVIAR: Users can min CAVIAR on Tangible with their vePEARL NFT. Minting with vePEARL incurs a dynamic conversion fee influenced by the CAVIAR - PEARL balance in the stable LP on Pearl Exchange.
-- Buy CAVIAR: Users can go to Pearl Exchange to swap any token supported on the exchange for CAVIAR, only paying the standard fees associated with a normal swap plus gas.
+- **Mint PEARL → CAVIAR:** Users can mint CAVIAR with $PEARL 1:1 at any time on Tangible, no fees or any additional costs other than gas on Polygon.
+- **Mint vePEARL → CAVIAR:** Users can min CAVIAR on Tangible with their vePEARL NFT. Minting with vePEARL incurs a dynamic conversion fee influenced by the CAVIAR - PEARL balance in the stable LP on Pearl Exchange.
+- **Buy CAVIAR:** Users can go to Pearl Exchange to swap any token supported on the exchange for CAVIAR, only paying the standard fees associated with a normal swap plus gas.
 
 ## Redeeming or Selling CAVIAR
-- Redeem CAVIAR → vePEARL: At any point in time, users can redeem CAVIAR for vePEARL on Tangible, incurring a 3.5% conversion fee plus gas.
-- Sell CAVIAR: Users can swap CAVIAR for any token supported on Pearl Exchange, only paying the standard fees associated with a normal swap plus gas.
+- **Redeem CAVIAR → vePEARL:** At any point in time, users can redeem CAVIAR for vePEARL on Tangible, incurring a 3.5% conversion fee plus gas.
+- **Sell CAVIAR:** Users can swap CAVIAR for any token supported on Pearl Exchange, only paying the standard fees associated with a normal swap plus gas.
 
 ## Claim CAVIAR Revenue
 Unlock the power of triple-digit vePEARL APRs with CAVIAR. Simply stake CAVIAR on Tangible to begin earning yield, which is distributed by block and claimable immediately. All yield is distributed back to users in [USDR](https://docs.tangible.store/real-usd/why-is-real-usd-better-money), Tangible’s native yield stablecoin backed by tokenized real estate.
