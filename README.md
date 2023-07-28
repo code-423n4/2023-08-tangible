@@ -1,36 +1,3 @@
-# ✨ So you want to run an audit
-
-This `README.md` contains a set of checklists for our audit collaboration.
-
-Your audit will use two repos: 
-- **an _audit_ repo** (this one), which is used for scoping your audit and for providing information to wardens
-- **a _findings_ repo**, where issues are submitted (shared with you after the audit) 
-
-Ultimately, when we launch the audit, this repo will be made public and will contain the smart contracts to be reviewed and all the information needed for audit participants. The findings repo will be made public after the audit report is published and your team has mitigated the identified issues.
-
-Some of the checklists in this doc are for **C4 (🐺)** and some of them are for **you as the audit sponsor (⭐️)**.
-
----
-
-# Audit setup
-# Repo setup
-
-## ⭐️ Sponsor: Add code to this repo
-
-- [ ] Create a PR to this repo with the below changes:
-- [ ] Provide a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
-- [ ] Make sure your code is thoroughly commented using the [NatSpec format](https://docs.soliditylang.org/en/v0.5.10/natspec-format.html#natspec-format).
-- [ ] Please have final versions of contracts and documentation added/updated in this repo **no less than 48 business hours prior to audit start time.**
-- [ ] Be prepared for a 🚨code freeze🚨 for the duration of the audit — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the audit. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
-
-
----
-
-## ⭐️ Sponsor: Edit this README
-
-
----
-
 # Tangible audit details
 - Total Prize Pool: $81,500 USDC 
   - HM awards: $41,250 USDC 
@@ -54,15 +21,102 @@ Automated findings output for the audit can be found [here](add link to report) 
 
 *Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+# Introduction
 
-# Overview
+An APR of +200% paid in stables is a rare and extremely attractive product. These returns, paid to locked token voters, are the backbone of the Solidly model, aka ve(3,3) and what makes it so effective. The downside however is that ve(3,3) economics are dense and complicated, challenging for experienced DeFi users and simply beyond the reach of your basic crypto investor.
 
-[Docs](https://docs.google.com/document/d/1EWsiBExzqpj9e6e-eLirhBI6A8egqw-dszBHPo2cS5k/edit?usp=sharing))*
+CAVIAR, a liquid wrapper from Tangible, removes the complexity and commitment of ve(3,3), creating a simple token for nearly any level of crypto investor. Weekly voting, locking, token management and everything else have been fully automated leaving users with single, simple, high-yield token to stake.
+
+# Caviar Overview
+
+CAVIAR ($CVR) is a self-sustaining liquid-wrapper for locked tokens vePEARL, the governance token of the [Pearl Exchange](https://www.pearl.exchange/swap). The main advantage of CAVIAR lies in its streamlined access to outstanding vePEARL yields, paid to voters, and CAVIAR stakers, in the stablecoin $USDR. CAVIAR promises to be a substantial source of income for both the CAVIAR users as well as Tangible 3,3+ locked token holders, who will receive 20% of the vePEARL yield.
+
+## Glossary
+- $PEARL: ERC-20 governance token/emission token for Pearl Exchange, an AMM on Polygon
+- $vePEARL: ERC-721 tokens (NFTs) containing $PEARL that’s been locked up to 2 years to obtain voting rights on Pearl Exchange
+- $CVR: CAVIAR, the liquid-wrapper created by Tangible
+- Epoch: A period lasting 7 days, restarting every Thursday at 00:00 GMT
+- Rebase: A process on Pearl where up to 50% of weekly emissions are allocated to $vePEARL holders and directly added to their $vePEARL positions
+- Bribes: Money deposited in Pearl to entice voters to pick different liquidity pools to receive yield in the form of $PEARL emissions
+- Stake: Staking is the process of submitting your CAVIAR into a contract where it can collect bribes. CAVIAR must be staked on Tangible to receive any benefits.
+- TNGBL 3,3+: Locked Tangible/$TNGBL the governance token of the Tangible protocol
+- $CVR_balance: The balance of CAVIAR in the Pearl stable LP
+- $CVR_staked: The total CAVIAR in the staking contract 
+- $PEAL_balance: The balance of $PEARL in the Pearl stable LP
+- $CVR_total: The total minted supply of CAVIAR
+
+## CAVIAR Explained - How to Use, Redeem and Profit
+
+INSERT IMAGE
+
+Earning triple-digit stablecoin yield has never been easier, it just takes three simple steps:
+
+1. Get CAVIAR: Buy CAVIAR on Pearl or mint it yourself on Tangible, depositing PEARL or vePEARL into our vault.
+
+2. Stake: Stake CAVIAR on Tangible to start earning the highest possible daily yield.
+
+3. Claim: Claim yield any time. Rewards accrue by block and are delivered to your wallet as USDR.
+
+## Minting or Buying CAVIAR
+- Mint PEARL → CAVIAR: Users can mint CAVIAR with $PEARL 1:1 at any time on Tangible, no fees or any additional costs other than gas on Polygon.
+- Mint vePEARL → CAVIAR: Users can min CAVIAR on Tangible with their vePEARL NFT. Minting with vePEARL incurs a dynamic conversion fee influenced by the CAVIAR - PEARL balance in the stable LP on Pearl Exchange.
+- Buy CAVIAR: Users can go to Pearl Exchange to swap any token supported on the exchange for CAVIAR, only paying the standard fees associated with a normal swap plus gas.
+
+## Redeeming or Selling CAVIAR
+- Redeem CAVIAR → vePEARL: At any point in time, users can redeem CAVIAR for vePEARL on Tangible, incurring a 3.5% conversion fee plus gas.
+- Sell CAVIAR: Users can swap CAVIAR for any token supported on Pearl Exchange, only paying the standard fees associated with a normal swap plus gas.
+
+## Claim CAVIAR Revenue
+Unlock the power of triple-digit vePEARL APRs with CAVIAR. Simply stake CAVIAR on Tangible to begin earning yield, which is distributed by block and claimable immediately. All yield is distributed back to users in [USDR](https://docs.tangible.store/real-usd/why-is-real-usd-better-money), Tangible’s native yield stablecoin backed by tokenized real estate.
+
+Using the vePEARL voting power backing CAVIAR and a vote optimizer, we’re able to return the high auto-converting fees, bribes, and rebases into CAVIAR, our innovative distribution system allocates a staggering 81.5% of the voting rewards to the single staking pool, ensuring higher rewards for stakers.
+
+### Bribe Fee
+
+20% of bribes will be converted into USDC and sent to TNGB 3,3+ holders.
+
+### Tangible Marketing Fee
+
+50% of rebase will be sent to Tangible or affiliate marketing partners as an integrated source of funds to support CVR marketing operations.
+
+### Dynamic Conversion Fee
+
+When converting vePEARL to CAVIAR, a dynamic conversion fee is applied. The fee is influenced by the balance of the stable LP on Pearl and ranges from a minimum of 12.5% to a maximum of 70%. The dynamic conversion fee formula is:
+`Dynamic fee = ($CVR_balance / $PEARL_balance) * min_conversion_fee`
+
+**Example:**
+
+If the balance in the CAVIAR/PEARL LP is 1000 $PEARL and 2000 $CVR, the conversion fee would be:
+`Conversion fee = (2000 / 1000) * 12.5% = 2 * 12.5% = 25%`
+
+## Distribution Formulas
+To understand the CAVIAR advantage, let's break down the distribution formulas for the LPs and staking pool.
+
+1. Calculate `CVR_total:`
+   
+`CVR_total = CVR_Balance + CVR_staked`
+
+2. Calculate `LPs Distribution:`
+   
+`LPs Distribution = (CVR_LP_balance / CVR_total) * (Rebase/2)`
+
+3. Calculate `Staking Distribution:`
+
+`Staking Distribution = (Rebase/2) - LPs Distribution`
+
+**Example:**
+
+Assuming `CVR_LP_balance` is 500, `CVR_staked` is 400, and `Rebase` is 100:
+
+`CVR_total = 500 + 400 = 900 LPs Distribution = (500 / 900) * (100/2) = 27.78`
+
+`Staking Distribution = (100/2) - 27.78 = 22.22`
+
+## Bootstrapping CAVIAR: Low-Fee Promotional Window
+
+For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, capped at 4,000,000 vePEARL.
 
 # Scope
-
-
 
       26 text files.
       26 unique files.                              
