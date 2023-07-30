@@ -117,19 +117,35 @@ Assuming `CVR_LP_balance` is 500, `CVR_staked` is 400, and `Rebase` is 100:
 For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, capped at 4,000,000 vePEARL.
 
 # Scope
-
-      26 text files.
-      26 unique files.                              
-       0 files ignored.
-
-github.com/AlDanial/cloc v 1.96  T=0.02 s (1154.6 files/s, 81487.2 lines/s)
--------------------------------------------------------------------------------
-Language                     files          blank        comment           code
--------------------------------------------------------------------------------
-Solidity                        26            361            113           1361
--------------------------------------------------------------------------------
-SUM:                            26            361            113           1361
--------------------------------------------------------------------------------
+| File                                               | blank | comment | code |   |
+|----------------------------------------------------|-------|---------|------|---|
+| [contracts/CaviarFeeManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarFeeManager.sol)                     | 52    | 2       | 238  |   |
+| [contracts/CaviarStrategy.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarStrategy.sol)                       | 56    | 18      | 238  |   |
+| [contracts/CaviarChef.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarChef.sol)                           | 57    | 11      | 235  |   |
+| [contracts/CaviarManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarManager.sol)                        | 71    | 9       | 231  |   |
+| [contracts/CaviarCompounder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarCompounder.sol)                     | 14    | 2       | 67   |   |
+| [contracts/SmartWalletWhitelist.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/SmartWalletWhitelist.sol)                 | 13    | 1       | 48   |   |
+| [contracts/interfaces/IPearlPair.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IPearlPair.sol)                | 23    | 1       | 45   |   |
+| [contracts/interfaces/IVePearl.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IVePearl.sol)                  | 12    | 6       | 42   |   |
+| [contracts/libraries/SignedSafeMath.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/libraries/SignedSafeMath.sol)             | 14    | 46      | 42   |   |
+| [contracts/CaviarChefRewardSeeder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarChefRewardSeeder.sol)               | 8     | 0       | 34   |   |
+| [contracts/interfaces/IRouter01.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IRouter01.sol)                 | 4     | 1       | 32   |   |
+| [contracts/interfaces/ICaviarStrategy.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarStrategy.sol)           | 23    | 1       | 30   |   |
+| [contracts/caviar.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/caviar.sol)                               | 8     | 1       | 28   |   |
+| [contracts/interfaces/IVoter.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IVoter.sol)                    | 4     | 1       | 20   |   |
+| [contracts/interfaces/ISecondRewarder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISecondRewarder.sol)           | 4     | 1       | 17   |   |
+| [contracts/mocks/ThenaPairMock.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/mocks/ThenaPairMock.sol)                  | 4     | 1       | 16   |   |
+| [contracts/interfaces/ICaviarChefSecondRewarder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarChefSecondRewarder.sol) | 4     | 1       | 15   |   |
+| [contracts/interfaces/ICaviarChef.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarChef.sol)               | 7     | 1       | 11   |   |
+| [contracts/interfaces/ICaviar.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviar.sol)                   | 5     | 1       | 8    |   |
+| [contracts/interfaces/IRewardsDistributor.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IRewardsDistributor.sol)       | 5     | 1       | 8    |   |
+| [contracts/interfaces/IPearlBribes.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IPearlBribes.sol)              | 3     | 1       | 6    |   |
+| [contracts/interfaces/ICaviarFeeManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarFeeManager.sol)         | 2     | 1       | 5    |   |
+| [contracts/interfaces/ICaviarManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarManager.sol)            | 2     | 1       | 5    |   |
+| [contracts/interfaces/IMasterchef.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IMasterchef.sol)               | 1     | 1       | 4    |   |
+| [contracts/interfaces/IRewardSeeder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IRewardSeeder.sol)             | 1     | 1       | 4    |   |
+| [contracts/interfaces/ISmartWalletWhitelist.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISmartWalletWhitelist.sol)     | 2     | 1       | 4    |   |
+| SUM:                                               | 399   | 112     | 1433 |   |
 
 ## Out of scope
 
