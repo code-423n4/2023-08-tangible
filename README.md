@@ -1,4 +1,4 @@
-# Tangible audit details
+# Tangible Caviar audit details
 - Total Prize Pool: $81,500 USDC 
   - HM awards: $41,250 USDC 
   - Analysis awards: $2,500 USDC
