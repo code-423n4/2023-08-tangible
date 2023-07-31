@@ -179,7 +179,4 @@ contract/interfaces/IVoter.sol
 ```
 
 # Tests
-
-*Provide every step required to build the project from a fresh git clone, as well as steps to run the tests with a gas report.* 
-
-*Note: Many wardens run Slither as a first pass for testing.  Please document any known errors with no workaround.* 
+There are no tests for this repo.
