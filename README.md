@@ -120,19 +120,19 @@ For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, c
 
 | Contract                                           | SLOC | Purpose | Libraries |
 |----------------------------------------------------|------|---------|-----------|
-| [contracts/CaviarFeeManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarFeeManager.sol)                     | 238  |         |           |
-| [contracts/CaviarStrategy.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarStrategy.sol)                       | 238  |         |           |
-| [contracts/CaviarChef.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarChef.sol)                           | 235  |         |           |
-| [contracts/CaviarManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarManager.sol)                        | 231  |         |           |
-| [contracts/CaviarCompounder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarCompounder.sol)                     | 67   |         |           |
+| [contracts/CaviarFeeManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarFeeManager.sol)                     | 238  |   interface for all the fees as well as conversions back to USDR/USDC called by CaviarManager   |           |
+| [contracts/CaviarStrategy.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarStrategy.sol)                       | 238  |    this is where the vePEARL NFT gets managed, you send votes through here   |           |
+| [contracts/CaviarChef.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarChef.sol)                           | 235  |      this is where you stake your CVR if you want to earn bribes (you might not want to, alternative is to stake in PEARL/CVR pool, in order to earn bribes from Pearl)  |           |
+| [contracts/CaviarManager.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarManager.sol)                        | 231  |   this is where you can mint new CVR, either by depositing PEARL, or (for a fee) vePEARL  |           |
+| [contracts/CaviarCompounder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarCompounder.sol)                     | 67   |      auto-compounder for CVR tokens, if we want to use it reinvests bribes   |           |
 | [contracts/SmartWalletWhitelist.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/SmartWalletWhitelist.sol)                 | 48   |         |           |
 | [contracts/interfaces/IPearlPair.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IPearlPair.sol)                | 45   |         |           |
 | [contracts/interfaces/IVePearl.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IVePearl.sol)                  | 42   |         |           |
 | [contracts/libraries/SignedSafeMath.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/libraries/SignedSafeMath.sol)             | 42   |         |           |
-| [contracts/CaviarChefRewardSeeder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarChefRewardSeeder.sol)               | 34   |         |           |
+| [contracts/CaviarChefRewardSeeder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/CaviarChefRewardSeeder.sol)               | 34   |  partly a place to store what address your gauge is (CaviarChef) in case you want to change it later allows CaviarChef to claim rewards that were sent there       |           |
 | [contracts/interfaces/IRouter01.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IRouter01.sol)                 | 32   |         |           |
 | [contracts/interfaces/ICaviarStrategy.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarStrategy.sol)           | 30   |         |           |
-| [contracts/caviar.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/caviar.sol)                               | 28   |         |           |
+| [contracts/caviar.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/caviar.sol)                               | 28   |     ERC-20 implementation of CVR token    |           |
 | [contracts/interfaces/IVoter.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IVoter.sol)                    | 20   |         |           |
 | [contracts/interfaces/ISecondRewarder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISecondRewarder.sol)           | 17   |         |           |
 | [contracts/mocks/ThenaPairMock.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/mocks/ThenaPairMock.sol)                  | 16   |         |           |
@@ -150,12 +150,12 @@ For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, c
 ## Out of scope
 
 *List any files/contracts that are out of scope for this audit.*
+contract/interafaces/IPearl*.sol
+contract/interafaces/IRewardDistributor.sol
+contract/mocks/*
+contract/interfaces/IRouter.sol
+contract/interfaces/IVoter.sol
 
-# Additional Context
-
-*Describe any novel or unique curve logic or mathematical models implemented in the contracts*
-
-*Sponsor, please confirm/edit the information below.*
 
 ## Scoping Details 
 ```
