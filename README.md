@@ -147,14 +147,7 @@ For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, c
 | [contracts/interfaces/IRewardSeeder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IRewardSeeder.sol)             | 4    |         |           |
 | [contracts/interfaces/ISmartWalletWhitelist.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISmartWalletWhitelist.sol)     | 4    |         |           |
 
-## Out of scope
 
-*List any files/contracts that are out of scope for this audit.*
-contract/interafaces/IPearl*.sol
-contract/interafaces/IRewardDistributor.sol
-contract/mocks/*
-contract/interfaces/IRouter.sol
-contract/interfaces/IVoter.sol
 
 
 ## Scoping Details 
