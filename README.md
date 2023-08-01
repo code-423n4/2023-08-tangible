@@ -135,7 +135,6 @@ For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, c
 | [contracts/caviar.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/caviar.sol)                               | 28   |     ERC-20 implementation of CVR token    |           |
 | [contracts/interfaces/IVoter.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IVoter.sol)                    | 20   |         |           |
 | [contracts/interfaces/ISecondRewarder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISecondRewarder.sol)           | 17   |         |           |
-| [contracts/mocks/ThenaPairMock.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/mocks/ThenaPairMock.sol)                  | 16   |         |           |
 | [contracts/interfaces/ICaviarChefSecondRewarder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarChefSecondRewarder.sol) | 15   |         |           |
 | [contracts/interfaces/ICaviarChef.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviarChef.sol)               | 11   |         |           |
 | [contracts/interfaces/ICaviar.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ICaviar.sol)                   | 8    |         |           |
@@ -148,7 +147,9 @@ For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, c
 | [contracts/interfaces/ISmartWalletWhitelist.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISmartWalletWhitelist.sol)     | 4    |         |           |
 
 
+## Out of scope
 
+`contracts/mocks/ThenaPairMock.sol` is out of scope for this contest.
 
 ## Scoping Details 
 ```
