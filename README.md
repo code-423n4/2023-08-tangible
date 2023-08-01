@@ -10,7 +10,7 @@
   - Scout awards: $500 USDC 
   - Mitigation Review: $18,000 USDC (*Opportunity goes to top 3 certified wardens based on placement in this audit.*)
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2023-08-tangible/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2023-08-tangible-caviar/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts August 1, 2023 20:00 UTC
 - Ends August 5, 2023 20:00 UTC 
