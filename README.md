@@ -146,10 +146,14 @@ For a limited time, users can convert vePEARL into CAVIAR for a static 5% fee, c
 | [contracts/interfaces/IRewardSeeder.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/IRewardSeeder.sol)             | 4    |         |           |
 | [contracts/interfaces/ISmartWalletWhitelist.sol](https://github.com/code-423n4/2023-08-tangible/tree/main/contracts/interfaces/ISmartWalletWhitelist.sol)     | 4    |         |           |
 
-
 ## Out of scope
 
 `contracts/mocks/ThenaPairMock.sol` is out of scope for this contest.
+
+# Additional Context
+
+There's a [medium article](https://medium.com/tangible/introducing-caviar-a-liquid-wrapper-for-vepearl-49dfaf530fba) which contains some additional info regarding the protocol.
+
 
 ## Scoping Details 
 ```
