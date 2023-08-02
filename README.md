@@ -29,7 +29,7 @@ CAVIAR, a liquid wrapper from Tangible, removes the complexity and commitment of
 
 # Caviar Overview
 
-CAVIAR ($CVR) is a self-sustaining liquid-wrapper for locked tokens vePEARL, the governance token of the [Pearl Exchange](https://www.pearl.exchange/swap). The main advantage of CAVIAR lies in its streamlined access to outstanding vePEARL yields, paid to voters, and CAVIAR stakers, in the stablecoin $USDR. CAVIAR promises to be a substantial source of income for both the CAVIAR users as well as Tangible 3,3+ locked token holders, who will receive 20% of the vePEARL yield.
+CAVIAR (`$CVR`) is a self-sustaining liquid-wrapper for locked tokens vePEARL, the governance token of the [Pearl Exchange](https://www.pearl.exchange/swap). The main advantage of CAVIAR lies in its streamlined access to outstanding vePEARL yields, paid to voters, and CAVIAR stakers, in the stablecoin `$USDR`. CAVIAR promises to be a substantial source of income for both the CAVIAR users as well as Tangible 3,3+ locked token holders, who will receive 20% of the vePEARL yield.
 
 ## Glossary 
 ```
