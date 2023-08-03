@@ -49,7 +49,7 @@ CAVIAR (`$CVR`) is a self-sustaining liquid-wrapper for locked tokens vePEARL, t
 
 ## CAVIAR Explained - How to Use, Redeem and Profit
 
-![caviar-explained](https://github.com/code-423n4/2023-08-tangible/blob/main/caviar-explained.png?raw=true)
+![caviar-explained](https://raw.githubusercontent.com/code-423n4/2023-08-tangible/main/caviar-explained.png )
 
 Earning triple-digit stablecoin yield has never been easier, it just takes three simple steps:
 
