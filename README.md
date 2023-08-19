@@ -33,16 +33,16 @@ CAVIAR (`$CVR`) is a self-sustaining liquid-wrapper for locked tokens vePEARL, t
 
 ## Glossary 
 - **$PEARL:** ERC-20 governance token/emission token for Pearl Exchange, an AMM on Polygon
-- **<span><span>$</span></span>vePEARL:** ERC-721 tokens (NFTs) containing <span><span>$</span></span>PEARL that’s been locked up to 2 years to obtain voting rights on Pearl Exchange
+- **&#36;vePEARL:** ERC-721 tokens (NFTs) containing &#36;PEARL that’s been locked up to 2 years to obtain voting rights on Pearl Exchange
 - **$CVR:** CAVIAR, the liquid-wrapper created by Tangible
 - **Epoch:** A period lasting 7 days, restarting every Thursday at 00:00 GMT
-- **Rebase:** A process on Pearl where up to 50% of weekly emissions are allocated to <span><span>$</span></span>vePEARL holders and directly added to their <span><span>$</span></span>vePEARL positions
+- **Rebase:** A process on Pearl where up to 50% of weekly emissions are allocated to &#36;vePEARL holders and directly added to their &#36;vePEARL positions
 - **Bribes:** Money deposited in Pearl to entice voters to pick different liquidity pools to receive yield in the form of $PEARL emissions
 - **Stake:** Staking is the process of submitting your CAVIAR into a contract where it can collect bribes. CAVIAR must be staked on Tangible to receive any benefits.
 - **TNGBL 3,3+:** Locked Tangible/$TNGBL the governance token of the Tangible protocol
 - **$CVR_balance:** The balance of CAVIAR in the Pearl stable LP
 - **$CVR_staked:** The total CAVIAR in the staking contract 
-- **<span><span>$</span></span>PEAL_balance:** The balance of <span><span>$</span></span>PEARL in the Pearl stable LP
+- **&#36;PEAL_balance:** The balance of &#36;PEARL in the Pearl stable LP
 - **$CVR_total:** The total minted supply of CAVIAR
 
 ## CAVIAR Explained - How to Use, Redeem and Profit
@@ -86,7 +86,7 @@ When converting vePEARL to CAVIAR, a dynamic conversion fee is applied. The fee 
 
 **Example:**
 
-If the balance in the CAVIAR/PEARL LP is 1000 <span><span>$</span></span>PEARL and 2000 <span><span>$</span></span>CVR, the conversion fee would be:
+If the balance in the CAVIAR/PEARL LP is 1000 &#36;PEARL and 2000 &#36;CVR, the conversion fee would be:
 `Conversion fee = (2000 / 1000) * 12.5% = 2 * 12.5% = 25%`
 
 ## Distribution Formulas
